@@ -1,4 +1,7 @@
 /* 
 */
 "title" = "Bienvenido a mi aplicacion";
-
+"content_view_button" = "Apreta en el boton";
+"content_view_alert_title" = "Alerta";
+"content_view_alert_message" = "Esta alerta es solo una prueba de mensaje de la alerta";
+"content_view_alert_dismiss_button" = "vale";
