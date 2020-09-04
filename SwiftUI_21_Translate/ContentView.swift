@@ -2,8 +2,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
+        Text("title")
+            .font(.system(.largeTitle, design: .rounded))
     }
 }
 
