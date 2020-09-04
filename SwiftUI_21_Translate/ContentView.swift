@@ -4,6 +4,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var alert = false
+    @State private var date = Date()
     
     var body: some View {
         VStack {
@@ -19,6 +20,13 @@ struct ContentView: View {
                 Alert(title: Text("content_view_alert_title"), message: Text("content_view_alert_message"), dismissButton:
                     .default(Text("content_view_alert_dismiss_button"))
                 )
+            }
+            
+            Form{
+                DatePicker(selection: self.$date, displayedComponents: .date) {
+                    Text("content_view_date_picker")
+                }
+                Text("\(self.date)")
             }
         }
     }

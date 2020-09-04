@@ -5,3 +5,4 @@
 "content_view_alert_title" = "Alerta";
 "content_view_alert_message" = "Esta alerta es solo una prueba de mensaje de la alerta";
 "content_view_alert_dismiss_button" = "vale";
+"content_view_date_picker" = "Elegir fecha";
